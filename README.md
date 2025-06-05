@@ -25,3 +25,21 @@ O carousel de cards no tamanho mobile não foi implementado ainda, muito penoso 
 
 ### FORM & TESTES
 Não foram aplicados testes nos requests fictícios fo formulário de materiais, apenas regex simples em alguns dos campos e lógica simples em outros como quantidade de caracteres, desta forma o formulário é meramente inlustrativo, não validado completamente.
+
+
+#### FERRAMENTAS QUE EU UTILIZARIA PARA PRODUÇÃO:
+
+- **vue 3 TS** (vite, node/modules, npm/npx, requests)
+    Para criar Sigle Page Application (SPA) com assistencia de modulos node e fail integração com backends (APIs, Databases), além de facilitar a criação de módulos e gerenciamento do projeto em si, como URLS, componentes, etc...
+
+- **github actions** (branches/workflow/secrets)
+    Para gerenciar o desenvolvimento, manutenção e implementação do projeto em um pipeline controlável e previsível, de fácil acesso e controle pela equipe.
+
+- **firebase** (deploy/domain/sa/hosting)
+    Para hospedar o website, providenciar um domínio e vincular o deploy do github automaticamente pelo workflow, estabelecer administradores, etc.
+
+- **google storage** (firebase/google, imagens, pdfs, etc..)
+    Para armazenar os arquivos de materiais enviados para os alunos, assim como armazenar todos os assets do website, como as imagens, etc. É acessível diretamente pelo firebase ou pela organização do Google.
+
+- **google analytics** (metricas)
+    Controlaria os clicks do site pelo google analytics caso fosse importante para equipe, saber quantos materiais foram entregues, para quem em qual data, etc...
