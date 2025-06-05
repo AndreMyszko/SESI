@@ -1,5 +1,6 @@
 :root {
-    --sesi-yellow: #ffc600; /* Approximate yellow from design */
+    --sesi-yellow: #FFD333; /* Approximate yellow from design */
+    --sesi-dar-yellow: #FFC800; /* Approximate yellow from design */
     --sesi-blue: #003a70;   /* Approximate dark blue from design */
     --sesi-light-blue: #e0f2fe; /* A lighter blue for backgrounds or accents */
     --sesi-green: #4CAF50; /* Green for CTA buttons */
@@ -121,8 +122,7 @@ h4 { font-size: 1.2rem; }
 
 /* Integrator Bar */
 .integrator-bar {
-    background-color: var(--sesi-blue);
-    color: var(--text-light);
+    background-color: var(--text-light);
     padding: var(--spacing-unit) 0;
 }
 .integrator-bar .container {
@@ -134,7 +134,7 @@ h4 { font-size: 1.2rem; }
 }
 .integrator-logos span, .integrator-bar .top-nav a {
     margin-right: calc(var(--spacing-unit) * 2);
-    color: var(--text-light);
+    color: var(--text-dark);
     text-decoration: none;
     font-size: 0.9rem;
 }
@@ -366,7 +366,7 @@ h4 { font-size: 1.2rem; }
 /* Institutions Section */
 #institutions {
     padding: calc(var(--spacing-unit) * 4) 0;
-    background-color: var(--background-light);
+    background-color: var(--sesi-yellow);
 }
 #institutions h2 {
     text-align: center;
@@ -399,7 +399,7 @@ footer {
     font-size: 0.9rem;
 }
 .footer-top {
-    background-color: var(--sesi-blue);
+    background-color: var(--sesi-dar-yellow);
     padding: calc(var(--spacing-unit) * 3) 0;
 }
 .footer-top .container {
@@ -438,8 +438,9 @@ footer {
 }
 
 .bottom-bar {
-    background-color: #001f40; /* Darkest blue */
+    background-color: var(--background-light); /* Darkest blue */
     font-size: 0.8rem;
+    color: var(--text-dark);
 }
 .bottom-bar .container {
     flex-direction: column;
