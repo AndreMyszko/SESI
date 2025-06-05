@@ -152,6 +152,7 @@ h4 { font-size: 1.2rem; }
     padding: calc(var(--spacing-unit) * 4) 0;
     padding-top: 0px;
     text-align: center;
+    padding-bottom: 100px;
 }
 #hero .hero-content {
     display: flex;
@@ -231,10 +232,19 @@ h4 { font-size: 1.2rem; }
     opacity: 0.8;
 }
 
+#middle-content {
+    margin-top: -100px;
+    position: relative;
+    background-color: var(--background-grey);
+    max-width: 100%;
+    align-content: center;
+    padding-inline: 5%;
+    border-radius: 10px;
+}
 
 /* Sesi Logos Banner Section */
 #sesi-logos-banner {
-    background-color: var(--background-light);
+    background-color: var(--sesi-yellow);
     padding: calc(var(--spacing-unit) * 3) 0;
 }
 #sesi-logos-banner .container {
@@ -517,6 +527,10 @@ footer {
     h2 { font-size: 2.5rem; }
     h3 { font-size: 1.75rem; }
     h4 { font-size: 1.3rem; }
+
+    #middle-content {
+        max-width: 60%;
+    }
 
     #play-video-button {
         margin-right: -30%;
