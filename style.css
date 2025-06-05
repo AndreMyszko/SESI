@@ -194,7 +194,7 @@ h4 { font-size: 1.2rem; }
     margin-right: auto;
 }
 .video-play-button-container .video-badge {
-    width: 60px; /* Adjust size */
+    width: 160px; /* Adjust size */
 }
 
 #play-video-button {
