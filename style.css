@@ -150,16 +150,21 @@ h4 { font-size: 1.2rem; }
     background-color: var(--sesi-yellow); /* Main background color */
     color: var(--sesi-blue);
     padding: calc(var(--spacing-unit) * 4) 0;
+    padding-top: 0px;
     text-align: center;
 }
 #hero .hero-content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: calc(var(--spacing-unit) * 3);
 }
+
+.hero-text {
+    width:50%
+}
+
 .hero-text .hero-20anos-logo {
-    width: 120px;
+    width: 100%;
     margin: 0 auto calc(var(--spacing-unit) * 2);
 }
 .hero-text h1 {
@@ -167,18 +172,23 @@ h4 { font-size: 1.2rem; }
     margin-bottom: var(--spacing-unit);
 }
 .hero-text h2 {
-    font-size: 1.8rem;
+    font-size: 0.7rem;
     font-weight: normal;
 }
 .hero-video-area {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: calc(var(--spacing-unit) * 2);
     position: relative;
-    text-align: center;
 }
+
 .hero-video-area .video-thumbnail-img {
-    border: 5px solid var(--sesi-blue);
-    border-radius: 8px;
-    max-width: 500px;
+    max-width: 40%;
+    margin-top: 0px;
+    padding-top: 0px;
 }
+
 .video-play-button-container {
     margin-top: var(--spacing-unit);
     display: flex;
@@ -189,7 +199,7 @@ h4 { font-size: 1.2rem; }
     padding: var(--spacing-unit) calc(var(--spacing-unit) * 2);
     border-radius: 8px;
     color: var(--text-light);
-    max-width: 100%; /* Adjust as needed */
+    width: 100%; /* Adjust as needed */
     margin-left: auto;
     margin-right: auto;
 }
@@ -209,8 +219,8 @@ h4 { font-size: 1.2rem; }
     font-weight: bold;
     position: absolute;
     margin-right: -50%;
-    margin-bottom: -17%;
-    width:24%;
+    margin-bottom: -15%;
+    width:25%;
     height: 5%;
 }
 #play-video-button .play-icon {
@@ -249,10 +259,7 @@ h4 { font-size: 1.2rem; }
     gap: calc(var(--spacing-unit) * 4);
     align-items: center;
 }
-.intro-image img {
-    border-radius: 8px;
-    max-width: 350px; /* Limit size on mobile first */
-}
+
 .intro-text-content h3 { color: var(--sesi-yellow); text-shadow: 1px 1px var(--sesi-blue); }
 .intro-text-content h4 { margin-top: calc(var(--spacing-unit) * 3); }
 .intro-text-content ul {
@@ -511,19 +518,32 @@ footer {
     h3 { font-size: 1.75rem; }
     h4 { font-size: 1.3rem; }
 
+    #play-video-button {
+        margin-right: -30%;
+        margin-bottom: -10%;
+        width: 16%;
+        height: 6%;   
+    }
+
+    .hero-text h2 {
+        font-size: 1.8rem;
+        font-weight: normal;   
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
     #hero .hero-content {
         flex-direction: row;
         text-align: left;
-        gap: calc(var(--spacing-unit) * 5);
     }
     .hero-text .hero-20anos-logo {
       margin: 0 0 calc(var(--spacing-unit) * 2) 0;
     }
     .hero-video-area .video-thumbnail-img {
-      max-width: 100%;
+      /* max-width: 50%; */
     }
     .video-play-button-container {
-        margin-left: 0; /* Align to left with text */
+        width: 60%;
     }
 
 
