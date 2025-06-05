@@ -189,12 +189,12 @@ h4 { font-size: 1.2rem; }
     padding: var(--spacing-unit) calc(var(--spacing-unit) * 2);
     border-radius: 8px;
     color: var(--text-light);
-    max-width: 300px; /* Adjust as needed */
+    max-width: 100%; /* Adjust as needed */
     margin-left: auto;
     margin-right: auto;
 }
 .video-play-button-container .video-badge {
-    width: 160px; /* Adjust size */
+    max-width: 100%; /* Adjust size */
 }
 
 #play-video-button {
@@ -207,6 +207,11 @@ h4 { font-size: 1.2rem; }
     display: flex;
     align-items: center;
     font-weight: bold;
+    position: absolute;
+    margin-right: -50%;
+    margin-bottom: -17%;
+    width:24%;
+    height: 5%;
 }
 #play-video-button .play-icon {
     margin-left: var(--spacing-unit);
