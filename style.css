@@ -427,6 +427,10 @@ footer {
     width: 100px;
     margin-bottom: var(--spacing-unit);
 }
+.social-media {
+    display: flex;
+    flex-direction: row;
+}
 .social-media a {
     margin: 0 var(--spacing-unit);
 }
