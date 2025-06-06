@@ -514,6 +514,10 @@ footer {
     text-align: center;
 }
 
+.intro-image {
+    display: none;
+}
+
 
 /* Responsive Design */
 
@@ -562,6 +566,7 @@ footer {
         gap: calc(var(--spacing-unit) * 5);
     }
     .intro-image {
+        display: flex;
         flex-basis: 40%;
     }
     .intro-text-content {
