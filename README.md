@@ -7,6 +7,9 @@ Eu me preocupei com o prazo para entregar um mvp, tentando seguir o mais fielmen
 
 **o projeto será atualizado até o final do dia 06/06/2024 - sexta-feira**
 
+**informações do ultimo commit:**
+não está perfeito, houveram algumas gambiarras e algumas partes não foram blocadas corretamente, mas para um prazo de um dia e meio de trabalho, até ficou interessante.
+
 ## PARA RODAR A APLICAÇÃO:
 Certifique-se de ter baixado o repositório da branch ```main```, estar com os arquivos html, css e js na mesma pasta e possuir a pasta ```assets``` com seus devidos arquivos. 
 Execute o arquivo html clicando duas vezes sobre ele, afim de abrir a página web no browser.
@@ -43,3 +46,17 @@ Não foram aplicados testes nos requests fictícios fo formulário de materiais,
 
 - **google analytics** (metricas)
     Controlaria os clicks do site pelo google analytics caso fosse importante para equipe, saber quantos materiais foram entregues, para quem em qual data, etc...
+
+
+# **PLUS** (lugand)
+    não deixem de visitar o meu website para ter uma ideia de como ficam os resultados com as ferramentas que utiliza, o site está em desenvolvimento, então a loja e o login, chatbot não estarão funcionando (apenas em desenvolvimento para mim), mas conseguem ver algumas tácnicas de frontend que utilizei nele, como:
+        - SPA
+        - DARK MODE
+        - DROPDOWNS
+        - ANIMATIONS
+        - CHAT
+        - etc
+    os textos são meramente placeholders.. enfim, para avaliar técnicas de front end.
+
+    LUGAND SISTEMAS LTDA:
+    https://lugand.com.br/
