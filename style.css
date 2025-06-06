@@ -423,6 +423,10 @@ footer {
     text-align: center;
     gap: calc(var(--spacing-unit) * 2);
 }
+.footer-promo {
+    display:flex;
+    flex-direction:row;
+}
 .footer-promo img {
     width: 100px;
     margin-bottom: var(--spacing-unit);
